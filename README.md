@@ -81,12 +81,12 @@ curl http://localhost:11434/api/generate -d '{
 ## Section 7 — Web Interface
 ```bash
 # Install OpenWebUI
-docker run -d \
-  --network=host \
-  --restart always \
-  -e OLLAMA_BASE_URL=http://127.0.0.1:11434 \
-  -v open-webui:/app/backend/data \
+sudo docker run -d \
   --name open-webui \
+  --restart always \
+  -p 3000:8080 \
+  -e OLLAMA_BASE_URL=http://host.docker.internal:11434 \
+  --add-host=host.docker.internal:host-gateway \
   ghcr.io/open-webui/open-webui:main
 
 # Access at: http://<EC2-PUBLIC-IP>:3000
