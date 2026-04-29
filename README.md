@@ -127,7 +127,7 @@ curl http://localhost:11434/api/generate -d '{
 
 ```bash
 # Step 1: Install Docker (if not already installed)
-sudo apt-get update && sudo apt-get install -y docker.io
+sudo apt-get install -y docker.io
 sudo systemctl start docker
 sudo systemctl enable docker
 
