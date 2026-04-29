@@ -155,7 +155,7 @@ sudo docker ps | grep open-webui
 | Service | Usage | Estimated Cost |
 |---------|-------|---------------|
 | EC2 t3.xlarge | ~10 hours | ~$2.50 |
-| EMR (m5.xlarge) | ~2 hours | ~$1.50 |
+| EMR (t3.xlarge) | ~2 hours | ~$1.50 |
 | S3 Storage | ~7 GB | ~$0.20 |
 | Data Transfer | minimal | ~$0.10 |
 | **Total** | | **~$4.30** |
