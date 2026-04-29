@@ -162,11 +162,3 @@ sudo docker ps | grep open-webui
 
 ---
 
-## Repository Checklist
-
-Before submitting, make sure the following files are present in the repo root:
-
-- [ ] `README.md`
-- [ ] `architecture-diagram.png`
-- [ ] `25fsvf_oasst1_preprocessing.py`
-- [ ] `fine_tuning.ipynb`
