@@ -14,8 +14,6 @@ CISC 886 – Cloud Computing Project: End-to-End Cloud-Based Chat Assistant
 ## Section 1 — System Architecture
 See `architecture-diagram.png` in the repository root.
 
-> ⚠️ Make sure `architecture-diagram.png` is committed and pushed to the GitHub repo root before submission.
-
 ---
 
 ## Section 2 — VPC & Networking
