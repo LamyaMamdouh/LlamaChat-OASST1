@@ -52,7 +52,7 @@ See `architecture-diagram.png` in the repository root.
 
 ```bash
 # Step 1: Upload preprocessing script to S3
-aws s3 cp 25fsvf_oasst1_preprocessing.py s3://25fsvf-oasst1-bucket/scripts/
+ aws s3 cp 25fsvf_oasst1_preprocessing.py 
 
 # Step 2: Create EMR Cluster via AWS Console
 # Cluster Name: 25fsvf-emr
@@ -66,7 +66,7 @@ aws emr add-steps \
   --cluster-id <YOUR-CLUSTER-ID> \
   --steps Type=Spark,Name="OASST1 Preprocessing",\
 ActionOnFailure=CONTINUE,\
-Args=[s3://25fsvf-oasst1-bucket/scripts/25fsvf_oasst1_preprocessing.py]
+Args=[...25fsvf_oasst1_preprocessing.py]
 
 # Step 4: Monitor the step
 aws emr describe-step \
