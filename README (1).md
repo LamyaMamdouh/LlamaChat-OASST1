@@ -4,7 +4,7 @@
 | Name | NetID | Student ID |
 |------|-------|------------|
 | Lamya Mamdouh Sayed | 25nfnx | 20596347 |
-| Esraa Farag | 25htmp | 20596301 |
+| Esraa Mohammed El sayed | 25htmp | 20596301 |
 | Alaa Ehab Mohamed Elshenawy | 25fsvf | 20596313 |
 
 **Date:** April 28, 2026
@@ -60,7 +60,7 @@ aws configure
 | Data Transfer | minimal | ~$0.10 |
 | **Total** | | **~$4.30** |
 
-> ⚠️ **Important:** Terminate all AWS resources immediately after use to avoid unexpected charges on the shared account.
+> **Important:** Terminate all AWS resources immediately after use to avoid unexpected charges on the shared account.
 
 ---
 
@@ -292,7 +292,6 @@ aws emr describe-cluster \
 # Expected: "TERMINATED"
 ```
 
-> ⚠️ The EMR teardown screenshot is **required** for grading. Take a screenshot of the cluster in **Terminated** state from the AWS Console before closing.
 
 ---
 
@@ -512,10 +511,6 @@ First-time setup:
   3. Select: 25fsvf-llama3-oasst1
   4. Start chatting!
 ```
-
-> ⚠️ Make sure port 3000 is open in the EC2 security group (launch-wizard-3) inbound rules.
-
----
 
 ## Cleanup — Destroy All Resources
 
